@@ -1,0 +1,70 @@
+.banner {
+  width: 100%;
+  background-image: url("../../assets/image/banner-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.banner .inner-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(238, 226, 226, 0.1);
+    padding-left: 50px;
+  
+}
+
+.banner .inner-container h2 {
+  font-size: 60px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.banner .inner-container .reviews {
+  font-size: 20px;
+  color: white;
+}
+
+.banner-rating .fa-star {
+  color: #FF5D75;
+  font-size: 20px;
+}
+
+
+/* Media Queries */
+@media (max-width: 767px) {
+  .banner {
+    width: 100%;
+    background-image: url("../assets/image/banner-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  
+  .banner .inner-container {
+      width: 100%;
+      height: 40vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      backdrop-filter: blur(2px);
+      background-color: rgba(238, 226, 226, 0.1);
+      padding-left: 20px;
+    
+  }
+  
+  .banner .inner-container h2 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .banner .inner-container .reviews {
+    font-size: 17px;
+  }
+  
+}

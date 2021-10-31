@@ -2,8 +2,8 @@
 
 /* Navigation */
 .navigation {
-  /* background-color: #103d40; */
-  background-image: linear-gradient(to bottom, #347485, #61b9e7);
+  background-color: #103d40;
+  /* background-image: linear-gradient(to bottom, #347485, #61b9e7); */
 }
 
 .navigation .outer-container {

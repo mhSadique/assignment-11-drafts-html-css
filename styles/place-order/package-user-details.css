@@ -1,0 +1,20 @@
+.package-user-details {
+
+}
+
+.package-user-details .outer-container {
+
+}
+
+.package-user-details .inner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.package-user-details .package-details {
+    background-color: red;
+}
+
+.package-user-details .user-details {
+    background-color: green;
+}

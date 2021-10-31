@@ -104,7 +104,7 @@
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 20px;
-    width: 400px;
+    width: 490px;
     padding: 10px 20px;
     border: 1px solid #94B7BA;
     border-radius: 5px;
@@ -137,7 +137,7 @@
 @media (max-width: 767px) {
     
 .package-user-details .inner-container {
-    width: 85%;
+    width: 95%;
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 60px;
@@ -146,4 +146,9 @@
   .package-user-details .package-details {
       margin-bottom: 50px;
   }
+
+  
+.package-user-details .user-details form input{
+    max-width: 350px;
+}
 }
